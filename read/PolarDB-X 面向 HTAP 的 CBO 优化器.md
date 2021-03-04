@@ -1,0 +1,1 @@
+# 原文地址 [PolarDB-X 面向 HTAP 的 CBO 优化器](https://mp.weixin.qq.com/s/sUttYeHBbeGhcDQXXFxhsw)
