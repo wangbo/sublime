@@ -1,4 +1,6 @@
-# 计算
+# 实时计算
+[The 8 Requirements of Real-Time Stream Processing](https://cs.brown.edu/~ugur/8rulesSigRec.pdf)
+[Streaming-Systems-Where-Large-Scale-Processing]
 
 # 执行
 
