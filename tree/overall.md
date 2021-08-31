@@ -7,7 +7,7 @@
 
 [Alibaba Hologres: A Cloud-Native Service for Hybrid Serving/Analytical Processing]()
 
-[State management in ApacheFlink®:Consistentstatefuldistributed stream processing]()
+[State management in ApacheFlink®: Consistent stateful distributed stream processing]()
 
 # 执行
 
