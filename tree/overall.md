@@ -2,8 +2,11 @@
 [The 8 Requirements of Real-Time Stream Processing](https://cs.brown.edu/~ugur/8rulesSigRec.pdf)
 
 [Streaming-Systems-Where-Large-Scale-Processing]()
+
 [Consistency and Completeness: Rethinking Distributed Stream Processing in Apache Kafka]()
+
 [Alibaba Hologres: A Cloud-Native Service for Hybrid Serving/Analytical Processing]()
+
 [StatemanagementinApacheFlink®:Consistentstatefuldistributed stream processing]()
 
 # 执行
