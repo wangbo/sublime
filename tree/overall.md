@@ -11,6 +11,8 @@
 
 [Streams and tables: Two sides of the same coin]()
 
+[Napa: Powering Scalable Data Warehousing with Robust Query Performance at Google](http://vldb.org/pvldb/vol14/p2986-sankaranarayanan.pdf)
+
 
 # 执行
 
