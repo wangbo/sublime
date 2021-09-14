@@ -54,3 +54,7 @@
 [What You Must Know about Memory,Caches, and Shared Memory](https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/lecture/parallel_distributed/2018/slides/pdf/memory2.pdf)
 
 [CMU DB](https://15721.courses.cs.cmu.edu/spring2020/schedule.html)
+
+# 博客
+[Google File System及其继任者Colossus](https://levy.at/blog/22)
+[早读](https://www.maybe.news/issues)
