@@ -39,6 +39,8 @@
 
 [百度C++工程师的那些极限优化](https://mp.weixin.qq.com/s/q2673V1thyXadKaCnDnBcQ)
 
+[C/C++ 性能优化背后的方法论：TMAM](https://www.cnblogs.com/vivotech/p/14547399.html)
+
 # 硬件
 
 # 产品
