@@ -30,6 +30,8 @@
 
 [详解LLVM代码生成技术及在数据库中的应用](https://mp.weixin.qq.com/s/iMcohNy16eSzEr_HbNCOIA)
 
+[Intel vtune性能分析工具](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html#gs.ferunh)
+
 # 问题分析
 [ostringstream多线程下性能问题分析](http://chys.info/blog/2017-11-06-ostringstream-performance)
 
