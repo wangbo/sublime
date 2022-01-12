@@ -84,16 +84,51 @@ tcmalloc会划分出一大片内存，然后划分给所有的逻辑cpu
 对于小对象（一个page以内就可以存下的），page内用的是一个类似unrolled linked list保存的
 
 
-## PageHeap
-
 ## Back-end
-持有比较大块的缓存，距离操作系统最近
-主要负责向操作系统申请和释放内存
+三个职责
+1 管理大块未使用的内存
+2 当前持有内存无法满足请求时，就从操作系统申请内存
+3 返回不需要的内存给操作系统
+
+概括来说就是，持有大块内存，主要负责与操作系统交互
+
+目前的back-end存在历史遗留问题
+1 legacy pageHeap，
+2 hugepage aware pageheap，以huge page的方式管理内存，主要目的是降低TLB Miss
+
+### Legacy PageHeap
+数据结构
+1 首先是有一个数组，数组的每个成员都是一个freelist，数组的长度是256
+2 freelist的结构，freelist本身是个链表，链表中的每个entry会持有若干个page，第n个freelist，entry中的page数就为n
+3 第256个freelist的entry持有的page数是大于256的
+4 这里有个细节是，每个entry的page内存应该是连续的
+
+为什么这么设计？
+还是出于标准化的设计目的，大内存申请的场景下，一般是申请一个或者多个page的，因此pageheap就提前把按照这个结构存储
+申请n个page，就去pageheap数组中找到第n个freelist，然后遍历freelist找到空闲的entry（该entry包含n个page）直接返回
+
+申请n个page，不一定非得在第n个free-list中找，最终选定的free-list位置可以大于n，剩余的那些page可以重新插入到pageheap中
+
+这种设计的弊端
+
+
+### HugePage Aware PageHeap
+这货主要针对hugepage 2M的情况设计的，比如x86系统上一个hugepage为2M
+filler cache
+region cache
 
 
 # 相关概念
-TLB
+## TLB是什么？
+操作系统需要把进程内的虚拟地址映射成实际的物理地址
+此处涉及操作系统页表管理的内容
+主要的结论是，如果通过直接访问页表的方式进行地址映射，访问内存的开销是很大（主要相比于直接访问寄存器而言）
+因此引入TLB的概念，其实就是页表的缓存，缓存的位置在cpu，访问速度和访问寄存器相当
 
+为什么引入hugepage可以降低cache miss率？
+盲猜申请的页面越大，页表数据越小，缓存的利用率也就越高
+
+第二个问题是，直接向操作系统申请内存，是否会被做填充和对齐，最大的page大小是多少？
 
 # 如何工作
 
