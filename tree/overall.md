@@ -63,3 +63,11 @@
 [Google File System及其继任者Colossus](https://levy.at/blog/22)
 
 [早读](https://www.maybe.news/issues)
+
+# 厂商
+Snowflake
+BigQuery
+RedShift
+Synapse
+Databricks
+Fireblot
