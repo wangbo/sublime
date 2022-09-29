@@ -43,6 +43,8 @@
 
 [C/C++ 性能优化背后的方法论：TMAM](https://www.cnblogs.com/vivotech/p/14547399.html)
 
+[英特尔自顶向下分析方法](https://www.intel.com/content/www/us/en/develop/documentation/vtune-cookbook/top/methodologies/top-down-microarchitecture-analysis-method.html)
+
 # 硬件
 
 # 产品
@@ -76,3 +78,9 @@ RedShift
 Synapse
 Databricks
 Fireblot
+
+# 通识
+《科学：没有止境的边疆》（Science: endless frontier，简称布什报告
+
+
+[大教堂与集市读后感](https://mp.weixin.qq.com/s/W_DmeDzph55ksUiK-jt62w)
