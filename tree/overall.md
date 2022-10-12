@@ -16,6 +16,13 @@
 
 # 执行
 
+# 缓存
+Trishul M. Chilimbi, Mark D. Hill, and James R. Larus. Cache- conscious structure layout. In Proc. SIGPLAN PLDI, Atlanta, GA, USA, 1999
+
+Chris Nyberg, Tom Barclay, Zarka Cvetanovic, Jim Gray, and David B. Lomet. AlphaSort: A Cache-Sensitive Parallel Exter- nal Sort. VLDB J., 4(4):603–627, 1995
+
+C. A. R. Hoare. Algorithm 64: Quicksort. Commun. ACM, 4(7):321, 1961.
+
 # 存储
 [How to speed up LZ4 decompression in ClickHouse](https://habr.com/en/company/yandex/blog/457612/)
 
