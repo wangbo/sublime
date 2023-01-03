@@ -91,3 +91,5 @@ Fireblot
 
 
 [大教堂与集市读后感](https://mp.weixin.qq.com/s/W_DmeDzph55ksUiK-jt62w)
+
+[Databases in 2022: A Year in Review](https://ottertune.com/blog/2022-databases-retrospective/)
