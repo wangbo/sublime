@@ -23,6 +23,8 @@ Chris Nyberg, Tom Barclay, Zarka Cvetanovic, Jim Gray, and David B. Lomet. Alpha
 
 C. A. R. Hoare. Algorithm 64: Quicksort. Commun. ACM, 4(7):321, 1961.
 
+[CACHE-EFFICIENT AGGREGATION: HASHING IS SORTING](https://people.csail.mit.edu/jshun/6886-s19/lectures/lecture12-2.pdf)
+
 # 存储
 [How to speed up LZ4 decompression in ClickHouse](https://habr.com/en/company/yandex/blog/457612/)
 
